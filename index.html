@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+  <div> 
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"> THE <span>SPARKS </span>BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>       
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <h1 class="animated bounceInRight" style="animation-delay: 2s">Money transaction</h1>
+          <p class="lead muted">Secure money transactions</p>
+          <i><h2><b>Welcome..</b></h2></i>
+          <br>
+          <br>
+          <a class="get-started" href="Moneytransfer.html" class="animated bounceInRight" style="animation-delay: 2s">Transfer Money</a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up" >
+          <div class="hero-img-div">
+            <img src="Home.jpg" alt="Oops!" width="500px">
+          </div>
+        </div>
+      </div>
+    <footer style="margin-top: 90px;">
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <p>Location: In City Complex, 2rd Floor, Hyderabad- 523201</p>  
+        </div>
+        <div class="col-md-6 text-center">
+            <ul class="social-icons">
+              Contact US:
+              <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/vaishalini-vunnam-b87327215/"><i class="fab fa-linkedin fa-3x"></i></a></li>   
+            </ul>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </div>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
